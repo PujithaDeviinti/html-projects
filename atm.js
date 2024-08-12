@@ -1,0 +1,48 @@
+console.log("welcome to atm")
+let pin = parseInt(prompt("enter pin "))
+let AC = 1000
+let userExist = false;;
+for (let i = 0; i < 100; i++) {
+    if (i == pin) {
+        console.log("usr exists")
+        userExist = true;
+        break;
+    }
+}
+if (!userExist) {
+    console.log("user not exists");
+}
+else {
+    while (true) {
+        console.log("1.deposit\n2.withdraw\n3.balance enquiry\n4.exit");
+        let choice = parseInt(prompt("enter choice"));
+        if (choice === 1) {
+            let dep = parseInt(prompt("enter amount to deposit.."));
+            AC =AC+dep;
+            console.log("amount is", AC);
+        }
+        else if (choice === 2) {
+            let wit = parseInt(prompt("enter amount to deposit.."));
+            AC =AC- wit;
+            console.log("amount is", AC);
+        }
+        else if (choice === 3) {
+            console.log("amount is", AC);
+        }
+        else if (choice === 4) {
+            console.log("thanks ,visit again");
+        }
+        else {
+            console.log("invalid");
+            break;
+        }
+        let next = prompt("enter s or no")
+        if (next.toLowerCase() === 'no') {
+            console.log("thanks")
+            break;
+        }
+
+
+    }
+
+}
