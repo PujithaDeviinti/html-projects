@@ -1,0 +1,48 @@
+#calculator.html
+<html>
+
+<head></head>
+
+<body>
+    <script src="atm.js"></script>
+</body>
+
+</html>
+
+#calculator.js
+
+let a=parseInt(prompt("enter a"))
+let b=parseInt(prompt("enter b"))
+while(true){
+    console.log("1.+\n2.-\n3.*\n4./\n5.%")
+    let choice=parseInt(prompt("enter choice arithmetic"))
+    if(choice===1){
+        let c=a+b;
+        console.log("add is",c)
+    }
+    else if(choice===2){
+        let c=a-b;
+        console.log("sub is",c)
+    }
+    else if(choice===3){
+        let c=a*b;
+        console.log("mul is",c)
+    }
+    else if(choice===4){
+        let c=a/b;
+        console.log("quotient is",c)
+    }
+    else if(choice===5){
+        let c=a%b;
+        console.log("remainder is",c)
+    }
+    else{
+        console.log("invalid")
+        BreakfastDiningSharp;
+    }
+    let next=prompt("enter s or no")
+        if(next.toLowerCase()==='no'){
+            console.log("thanks")
+            break;
+        }
+}
