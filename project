@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSP Farmer schemes:</title>
+    <style>
+        body{
+            color: black;
+            background-image:url("https://img.freepik.com/free-photo/sunny-meadow-landscape_1112-134.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712448000&semt=ais");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        h1{
+            color:red;
+        }
+        p{
+            font-size: 20px;
+        }
+        a{
+            color:red;
+               }
+    </style>
+    <link rel="stylesheet" type="css" href="link.css">
+</head>
+<body>
+<h1 align="center"> Awarness on Farming Schemes </h1><br><br>
+<p><cenetr><b> Welcome to our awarness camp... </b></center></p><br>
+<p> <b>Here we will let you know about all the schemes available for the farmers both state and national wide.<br><br>This website is to explain the landscape of Indian and AP government agricultural schemes, highlighting steps designed to raise and support farmers across the nation.<br><br>
+Since many of the farmers are not aware of all the schemes, we are here outlining all the agriculture schemes that may benefit even more for cultivation. <br><br>There are many schemes available for the farmers not only for crop cultivation but also for animal rearing.<br><br>Both the state government and national government are providing various schemes.</b>
+</p><br>
+<p><center> <b>For STATE SCHEMES:</b> </center></p>
+<center><b><a href="states.html"> Click here to know state wise schemes </a></b></center><br><br>
+<p><center> <b>For NATIONAL SCHEMES: </b></center></p>
+<center><b><a href="nation.html"> Click here to know national wise schemes</a></b></center>  
+</body>
+</html>
